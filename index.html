@@ -406,7 +406,7 @@
         
             images.forEach((img, index) => {
                 let scale = 1 - (index * 0.1); // Efek mengecil ke bawah
-                if (scale < 0.4) scale = 0.4; // Batas minimal ukuran gambar
+                if (scale < 0.9) scale = 0.9; // Batas minimal ukuran gambar
                 img.style.transform = `scale(${scale})`;
             });
         });
