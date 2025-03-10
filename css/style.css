@@ -201,9 +201,14 @@ body {
 }
 
 .perGaleri img {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 320px;
   margin: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .scroll {
@@ -531,7 +536,7 @@ body {
 }
 
 .containerArtikelHome .artikelHome .perArtikelHome {
-  width: 170px;
+  width: 140px;
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
@@ -546,7 +551,7 @@ body {
 
 .containerArtikelHome .artikelHome .perArtikelHome img {
   width: 100%;
-  height: 170px;
+  height: 140px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -940,7 +945,7 @@ iframe {
   }
   .perGaleri img {
     width: 200px;
-    height: 100px;
+    height: 200px;
   }
   .title h2 {
     font-size: 1.7rem;
