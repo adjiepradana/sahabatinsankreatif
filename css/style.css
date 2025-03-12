@@ -88,7 +88,7 @@ body {
 
 .slideshow {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   position: relative;
 }
 
@@ -99,24 +99,22 @@ body {
   background-size: cover;
 }
 
-.slideshow .satu {
-  background-image: url("../images/slideshow2.jpg");
-}
+
 
 .slideshow .dua {
-  background-image: url("../images/slideshow1.jpg");
+  background-image: url("../images/slideshow/event_organizer.avif");
 }
 
 .slideshow .tiga {
-  background-image: url("../images/slideshow3.jpg");
+  background-image: url("../images/slideshow/rafting.jpg");
 }
 
 .slideshow .empat {
-  background-image: url("../images/5e72f7134ca67-integrity-desktop2.jpg");
+  background-image: url("../images/slideshow/training.jpeg");
 }
 
 .slideshow .lima {
-  background-image: url("../images/5e72f6adbf417-commitment2-desktop.jpg");
+  background-image: url("../images/slideshow/wedding.jpeg");
 }
 
 .slideshow .enam {
@@ -202,7 +200,7 @@ body {
 
 .perGaleri img {
   width: 350px;
-  height: 320px;
+  height: 350px;
   margin: 5px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -1060,7 +1058,7 @@ iframe {
 @media (max-width: 475px) {
   .perGaleri img {
     width: 150px;
-    height: 100px;
+    height: 160px;
   }
   .pembinaEkstrakulikuler .perPembina {
     width: 100%;
