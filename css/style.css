@@ -534,7 +534,7 @@ body {
 }
 
 .containerArtikelHome .artikelHome .perArtikelHome {
-  width: 140px;
+  width: 145px;
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
@@ -549,7 +549,7 @@ body {
 
 .containerArtikelHome .artikelHome .perArtikelHome img {
   width: 100%;
-  height: 140px;
+  height: 125px;
   display: flex;
   flex-wrap: wrap;
 }
